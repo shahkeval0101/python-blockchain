@@ -1,3 +1,4 @@
+
 # python_blockchain_app
 
 A simple tutorial for developing a blockchain application from scratch in Python.
@@ -14,7 +15,13 @@ Clone the project,
 $ git clone https://github.com/satwikkansal/python_blockchain_app.git
 ```
 
-Start a blockchain node server,
+virtualenv flask
+cd flask
+Scripts/activate
+pip install flask
+
+
+Start a blockchain node server bash server,
 
 ```sh
 $ export FLASK_APP=node_server.py
